@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963AAA7D1EC24FF70012F251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AAA7C1EC24FF70012F251 /* AppDelegate.swift */; };
+		963AAA7F1EC24FF70012F251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AAA7E1EC24FF70012F251 /* ViewController.swift */; };
+		963AAA821EC24FF70012F251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AAA801EC24FF70012F251 /* Main.storyboard */; };
+		963AAA841EC24FF70012F251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963AAA831EC24FF70012F251 /* Assets.xcassets */; };
+		963AAA871EC24FF70012F251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963AAA851EC24FF70012F251 /* LaunchScreen.storyboard */; };
+		963AAA921EC24FF70012F251 /* ios_weekday_from_datepickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AAA911EC24FF70012F251 /* ios_weekday_from_datepickerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963AAA8E1EC24FF70012F251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963AAA711EC24FF70012F251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963AAA781EC24FF70012F251;
+			remoteInfo = "ios-weekday-from-datepicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		963AAA791EC24FF70012F251 /* ios-weekday-from-datepicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-weekday-from-datepicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963AAA7C1EC24FF70012F251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963AAA7E1EC24FF70012F251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		963AAA811EC24FF70012F251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963AAA831EC24FF70012F251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963AAA861EC24FF70012F251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963AAA881EC24FF70012F251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963AAA8D1EC24FF70012F251 /* ios-weekday-from-datepickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-weekday-from-datepickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963AAA911EC24FF70012F251 /* ios_weekday_from_datepickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_weekday_from_datepickerTests.swift; sourceTree = "<group>"; };
+		963AAA931EC24FF70012F251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963AAA761EC24FF70012F251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AAA8A1EC24FF70012F251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963AAA701EC24FF70012F251 = {
+			isa = PBXGroup;
+			children = (
+				963AAA7B1EC24FF70012F251 /* ios-weekday-from-datepicker */,
+				963AAA901EC24FF70012F251 /* ios-weekday-from-datepickerTests */,
+				963AAA7A1EC24FF70012F251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963AAA7A1EC24FF70012F251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963AAA791EC24FF70012F251 /* ios-weekday-from-datepicker.app */,
+				963AAA8D1EC24FF70012F251 /* ios-weekday-from-datepickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963AAA7B1EC24FF70012F251 /* ios-weekday-from-datepicker */ = {
+			isa = PBXGroup;
+			children = (
+				963AAA7C1EC24FF70012F251 /* AppDelegate.swift */,
+				963AAA7E1EC24FF70012F251 /* ViewController.swift */,
+				963AAA801EC24FF70012F251 /* Main.storyboard */,
+				963AAA831EC24FF70012F251 /* Assets.xcassets */,
+				963AAA851EC24FF70012F251 /* LaunchScreen.storyboard */,
+				963AAA881EC24FF70012F251 /* Info.plist */,
+			);
+			path = "ios-weekday-from-datepicker";
+			sourceTree = "<group>";
+		};
+		963AAA901EC24FF70012F251 /* ios-weekday-from-datepickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				963AAA911EC24FF70012F251 /* ios_weekday_from_datepickerTests.swift */,
+				963AAA931EC24FF70012F251 /* Info.plist */,
+			);
+			path = "ios-weekday-from-datepickerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963AAA781EC24FF70012F251 /* ios-weekday-from-datepicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963AAA961EC24FF70012F251 /* Build configuration list for PBXNativeTarget "ios-weekday-from-datepicker" */;
+			buildPhases = (
+				963AAA751EC24FF70012F251 /* Sources */,
+				963AAA761EC24FF70012F251 /* Frameworks */,
+				963AAA771EC24FF70012F251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-weekday-from-datepicker";
+			productName = "ios-weekday-from-datepicker";
+			productReference = 963AAA791EC24FF70012F251 /* ios-weekday-from-datepicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963AAA8C1EC24FF70012F251 /* ios-weekday-from-datepickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963AAA991EC24FF70012F251 /* Build configuration list for PBXNativeTarget "ios-weekday-from-datepickerTests" */;
+			buildPhases = (
+				963AAA891EC24FF70012F251 /* Sources */,
+				963AAA8A1EC24FF70012F251 /* Frameworks */,
+				963AAA8B1EC24FF70012F251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963AAA8F1EC24FF70012F251 /* PBXTargetDependency */,
+			);
+			name = "ios-weekday-from-datepickerTests";
+			productName = "ios-weekday-from-datepickerTests";
+			productReference = 963AAA8D1EC24FF70012F251 /* ios-weekday-from-datepickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963AAA711EC24FF70012F251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kentao Taguchi";
+				TargetAttributes = {
+					963AAA781EC24FF70012F251 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PCCZJUYRT6;
+						ProvisioningStyle = Automatic;
+					};
+					963AAA8C1EC24FF70012F251 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PCCZJUYRT6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 963AAA781EC24FF70012F251;
+					};
+				};
+			};
+			buildConfigurationList = 963AAA741EC24FF70012F251 /* Build configuration list for PBXProject "ios-weekday-from-datepicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963AAA701EC24FF70012F251;
+			productRefGroup = 963AAA7A1EC24FF70012F251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963AAA781EC24FF70012F251 /* ios-weekday-from-datepicker */,
+				963AAA8C1EC24FF70012F251 /* ios-weekday-from-datepickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963AAA771EC24FF70012F251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AAA871EC24FF70012F251 /* LaunchScreen.storyboard in Resources */,
+				963AAA841EC24FF70012F251 /* Assets.xcassets in Resources */,
+				963AAA821EC24FF70012F251 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AAA8B1EC24FF70012F251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963AAA751EC24FF70012F251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AAA7F1EC24FF70012F251 /* ViewController.swift in Sources */,
+				963AAA7D1EC24FF70012F251 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963AAA891EC24FF70012F251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AAA921EC24FF70012F251 /* ios_weekday_from_datepickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963AAA8F1EC24FF70012F251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963AAA781EC24FF70012F251 /* ios-weekday-from-datepicker */;
+			targetProxy = 963AAA8E1EC24FF70012F251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963AAA801EC24FF70012F251 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963AAA811EC24FF70012F251 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963AAA851EC24FF70012F251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963AAA861EC24FF70012F251 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963AAA941EC24FF70012F251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		963AAA951EC24FF70012F251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963AAA971EC24FF70012F251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-weekday-from-datepicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-weekday-from-datepicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		963AAA981EC24FF70012F251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-weekday-from-datepicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-weekday-from-datepicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		963AAA9A1EC24FF70012F251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-weekday-from-datepickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-weekday-from-datepickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-weekday-from-datepicker.app/ios-weekday-from-datepicker";
+			};
+			name = Debug;
+		};
+		963AAA9B1EC24FF70012F251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-weekday-from-datepickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-weekday-from-datepickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-weekday-from-datepicker.app/ios-weekday-from-datepicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963AAA741EC24FF70012F251 /* Build configuration list for PBXProject "ios-weekday-from-datepicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AAA941EC24FF70012F251 /* Debug */,
+				963AAA951EC24FF70012F251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963AAA961EC24FF70012F251 /* Build configuration list for PBXNativeTarget "ios-weekday-from-datepicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AAA971EC24FF70012F251 /* Debug */,
+				963AAA981EC24FF70012F251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		963AAA991EC24FF70012F251 /* Build configuration list for PBXNativeTarget "ios-weekday-from-datepickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AAA9A1EC24FF70012F251 /* Debug */,
+				963AAA9B1EC24FF70012F251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963AAA711EC24FF70012F251 /* Project object */;
+}
