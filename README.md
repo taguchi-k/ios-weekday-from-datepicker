@@ -4,3 +4,9 @@ UIDatePickerから日時を取得する&amp;曜日取得メソッドのサンプ
 ## 下記記事説明用のサンプルコードです
 http://qiita.com/ktaguchi/items/9d719bbba63668648ac1  
 http://qiita.com/ktaguchi/items/b7491362f5855a4db41f
+
+## 開発環境
+|category | Version| 
+|---|---|
+| Swift | 3.1 |
+| XCode | 8.3.2 |
